@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="license_kotlin_name">kotlin</string>
+    <string name="license_kotlin_text">https://github.com/JetBrains/kotlin/blob/v1.3.20/license/LICENSE.txt</string>
+
+    <string name="license_kotlin_coroutines_name">kotlinx.coroutines</string>
+    <string name="license_kotlin_coroutines_text">https://github.com/Kotlin/kotlinx.coroutines/blob/1.0.1/LICENSE.txt</string>
+
+    <string name="license_material_design_icons_name">material-design-icons</string>
+    <string name="license_material_design_icons_text">https://github.com/google/material-design-icons/blob/master/LICENSE</string>
+
+    <string name="license_material_components_android_name">material-components-android</string>
+    <string name="license_material_components_android_text">https://github.com/material-components/material-components-android/blob/1.0.0/LICENSE</string>
+
+    <string name="license_androidx_name">androidx</string>
+    <string name="license_androidx_text">https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-release/LICENSE.txt</string>
+
+    <string name="license_okhttp3_name">okhttp3</string>
+    <string name="license_okhttp3_text">https://github.com/square/okhttp/blob/parent-3.13.1/LICENSE.txt</string>
+
+    <string name="license_retrofit2_name">retrofit2</string>
+    <string name="license_retrofit2_text">https://github.com/square/retrofit/blob/parent-2.5.0/LICENSE.txt</string>
+
+    <string name="license_retrofit2_kotlin_coroutines_adapter_name">retrofit2-kotlin-coroutines-adapter</string>
+    <string name="license_retrofit2_kotlin_coroutines_adapter_text">https://github.com/JakeWharton/retrofit2-kotlin-coroutines-adapter/blob/0.9.2/LICENSE.txt</string>
+
+    <string name="license_moshi_name">moshi</string>
+    <string name="license_moshi_text">https://github.com/square/moshi/blob/moshi-parent-1.8.0/LICENSE.txt</string>
+
+    <string name="license_threetenabp_name">ThreeTenABP</string>
+    <string name="license_threetenabp_text">https://github.com/JakeWharton/ThreeTenABP/blob/1.1.1/LICENSE.txt</string>
+
+    <string name="license_glide_name">Glide</string>
+    <string name="license_glide_text">https://github.com/bumptech/glide/blob/v4.9.0/LICENSE</string>
+
+    <string name="license_photoview_name">PhotoView</string>
+    <string name="license_photoview_text">https://github.com/chrisbanes/PhotoView/blob/2.3.0/LICENSE</string>
+
+    <string name="license_timber_name">Timber</string>
+    <string name="license_timber_text">https://github.com/JakeWharton/timber/blob/4.7.1/LICENSE.txt</string>
+</resources>

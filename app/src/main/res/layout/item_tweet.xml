@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/icon_card_view"
+            android:layout_width="@dimen/size_48"
+            android:layout_height="@dimen/size_48"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginTop="@dimen/spacing_16"
+            app:cardCornerRadius="@dimen/tweet_icon_radius"
+            app:cardElevation="@dimen/tweet_icon_elevation_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/name_text_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:src="@mipmap/ic_launcher" />
+
+            <View
+                android:id="@+id/icon_mask_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.emoji.widget.EmojiAppCompatTextView
+            android:id="@+id/name_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/colorTextPrimary"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/message_text_view"
+            app:layout_constraintEnd_toStartOf="@+id/datetime_text_view"
+            app:layout_constraintStart_toEndOf="@+id/icon_card_view"
+            app:layout_constraintTop_toTopOf="@+id/icon_card_view"
+            tools:text="name_name_name @name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/datetime_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_8"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:singleLine="true"
+            android:textColor="@color/colorTextPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/name_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/name_text_view"
+            app:layout_constraintTop_toTopOf="@+id/icon_card_view"
+            tools:text="2019/02/14" />
+
+        <androidx.emoji.widget.EmojiAppCompatTextView
+            android:id="@+id/message_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginTop="@dimen/spacing_8"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:autoLink="web"
+            android:textColor="@color/colorTextPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/illustration_card_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/icon_card_view"
+            app:layout_constraintTop_toBottomOf="@+id/name_text_view"
+            tools:text="message message message message message message message" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/illustration_card_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginTop="@dimen/spacing_8"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:layout_marginBottom="@dimen/spacing_16"
+            app:cardCornerRadius="@dimen/tweet_illustration_radius"
+            app:cardElevation="@dimen/tweet_illustration__elevation_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="w, 16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/icon_card_view"
+            app:layout_constraintTop_toBottomOf="@+id/message_text_view">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/illustration_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:background="#ff0"
+                tools:src="@mipmap/ic_launcher" />
+
+            <View
+                android:id="@+id/illustration_mask_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground" />
+        </com.google.android.material.card.MaterialCardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

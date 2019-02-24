@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design -->
+    <dimen name="text_display4_112">112sp</dimen>
+    <dimen name="text_display3_56">56sp</dimen>
+    <dimen name="text_display2_45">45sp</dimen>
+    <dimen name="text_display1_34">34sp</dimen>
+    <dimen name="text_headline_24">24sp</dimen>
+    <dimen name="text_title_20">20sp</dimen>
+    <dimen name="text_subheading_16">16sp</dimen>
+    <dimen name="text_body_14">14sp</dimen>
+    <dimen name="text_caption_12">12sp</dimen>
+    <dimen name="text_button_14">14sp</dimen>
+
+    <dimen name="spacing_4">4dp</dimen>
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="spacing_12">12dp</dimen>
+    <dimen name="spacing_16">16dp</dimen>
+    <dimen name="spacing_20">20dp</dimen>
+    <dimen name="spacing_24">24dp</dimen>
+    <dimen name="spacing_32">32dp</dimen>
+    <dimen name="spacing_72">72dp</dimen>
+
+    <dimen name="size_36">36dp</dimen>
+    <dimen name="size_40">40dp</dimen>
+    <dimen name="size_48">48dp</dimen>
+
+    <dimen name="list_item_1_line_height">56dp</dimen>
+    <dimen name="list_item_2_line_height">72dp</dimen>
+    <dimen name="list_item_3_line_height">88dp</dimen>
+
+    <!-- elevation -->
+    <dimen name="toolbar_elevation_size">4dp</dimen>
+    <dimen name="fab_elevation_size">6dp</dimen>
+    <dimen name="bottom_sheet_elevation_size">8dp</dimen>
+    <dimen name="fragment_elevation_size">8dp</dimen>
+
+    <dimen name="tweet_icon_elevation_size">0dp</dimen>
+    <dimen name="tweet_illustration__elevation_size">0dp</dimen>
+
+    <!-- radius -->
+    <dimen name="heroine_button_radius">32dp</dimen>
+    <dimen name="tweet_icon_radius">24dp</dimen>
+    <dimen name="tweet_illustration_radius">16dp</dimen>
+</resources>

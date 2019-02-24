@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pink -->
+    <color name="colorPrimary">#ff80ab</color>
+    <color name="colorPrimaryLight">#ffb2dd</color>
+    <color name="colorPrimaryDark">#c94f7c</color>
+
+    <!-- Purple -->
+    <color name="colorSecondary">#ea80fc</color>
+    <color name="colorSecondaryLight">#ffb2ff</color>
+    <color name="colorSecondaryDark">#b64fc8</color>
+
+    <color name="colorTextPrimary">@color/black</color>
+    <color name="colorTextSecondary">@color/white</color>
+    <color name="colorTextGray">@color/darker_gray</color>
+
+    <color name="color_ichika">#0df1bf42</color>
+    <color name="color_nino">#0d9b5294</color>
+    <color name="color_miku">#0d46a0e3</color>
+    <color name="color_yotsuba">#0d99c044</color>
+    <color name="color_itsuki">#0dd32d26</color>
+
+    <color name="black">@android:color/black</color>
+    <color name="black_80">#cc000000</color>
+    <color name="white">@android:color/white</color>
+    <color name="gray">#d5d5d5</color>
+    <color name="darker_gray">#808080</color>
+</resources>

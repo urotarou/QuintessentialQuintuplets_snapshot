@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="@dimen/toolbar_elevation_size"
+            android:theme="@style/AppTheme.Toolbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0"
+            app:title="@string/app_name" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ichika_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:paddingTop="@dimen/spacing_16"
+            android:paddingBottom="@dimen/spacing_16"
+            android:text="@string/heroine_ichika"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorSecondaryLight"
+            app:cornerRadius="@dimen/heroine_button_radius"
+            app:layout_constraintBottom_toTopOf="@+id/nino_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tool_bar" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nino_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:paddingTop="@dimen/spacing_16"
+            android:paddingBottom="@dimen/spacing_16"
+            android:text="@string/heroine_nino"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorSecondaryLight"
+            app:cornerRadius="@dimen/heroine_button_radius"
+            app:layout_constraintBottom_toTopOf="@+id/miku_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ichika_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/miku_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:paddingTop="@dimen/spacing_16"
+            android:paddingBottom="@dimen/spacing_16"
+            android:text="@string/heroine_miku"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorSecondaryLight"
+            app:cornerRadius="@dimen/heroine_button_radius"
+            app:layout_constraintBottom_toTopOf="@+id/yotsuba_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nino_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/yotsuba_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:paddingTop="@dimen/spacing_16"
+            android:paddingBottom="@dimen/spacing_16"
+            android:text="@string/heroine_yotsuba"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorSecondaryLight"
+            app:cornerRadius="@dimen/heroine_button_radius"
+            app:layout_constraintBottom_toTopOf="@+id/itsuki_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/miku_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/itsuki_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_16"
+            android:layout_marginEnd="@dimen/spacing_16"
+            android:paddingTop="@dimen/spacing_16"
+            android:paddingBottom="@dimen/spacing_16"
+            android:text="@string/heroine_itsuki"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorSecondaryLight"
+            app:cornerRadius="@dimen/heroine_button_radius"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yotsuba_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
